@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import aiml
 import os
 
-app = Flask(__name__)
+app = Flask(__name__,static_url_path='')
 
 @app.route("/")
 def hello():

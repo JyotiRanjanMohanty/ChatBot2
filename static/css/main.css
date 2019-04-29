@@ -28,7 +28,7 @@ body:before {
     top: 0%;
     left: 0%;
     background: #2daaff;
-    background-image: url("{{ url_for('static', filename='css/Ujjivan.jpg') }}");
+    background-image: url('../images/Ujjivan.jpg');
     background-size:cover;
     content: "";
     z-index: 0;
