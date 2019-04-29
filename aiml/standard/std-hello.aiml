@@ -477,12 +477,17 @@ I am fine thank you, how are you?
 <srai>HELLO</srai>
 </template>
 </category>
-
-<category>
+<category>
 <pattern>HI</pattern>
-<that>WHAT CAN I CALL YOU</that>
 <template>
-<srai>HELLO</srai>
+<random>
+<li>Hi there!</li>
+
+<li>Well hello there!</li>
+<li>Hi there. I was just wanting to talk to <get name="name"/>.</li>
+<li>Hello there <get name="name"/>!</li>
+<li>Oh, hello again!</li>
+</random>
 </template>
 </category>
 

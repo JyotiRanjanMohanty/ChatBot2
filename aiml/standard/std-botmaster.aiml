@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+	<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <aiml version="1.0">
 
@@ -9,6 +9,19 @@
 
 <meta name="author" content="Dr. Wallace"/>
 <meta name="language" content="en"/>
+
+
+<category>
+<pattern>* YOUR NAME *</pattern>
+      
+<template>
+<random>
+<li> My Name is Adaline </li>
+<li> People call me Adaline </li>
+</random>
+</template>
+      
+<category>      
 
 <category>
 <pattern>I AM YOUR BOTMASTER</pattern>
